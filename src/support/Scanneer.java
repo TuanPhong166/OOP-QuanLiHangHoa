@@ -45,8 +45,8 @@ public class Scanneer {
                 if(hangHoa2.getMaHang().equalsIgnoreCase(maHang)){
                     System.out.println("Ma hang da ton tai.");
                     return null;
-                }
-            }
+                } break ;
+            } 
             System.out.print("Nhap vao ten hang hoa: ");
             tenHang = input.nextLine();
            try {
