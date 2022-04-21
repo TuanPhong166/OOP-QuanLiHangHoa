@@ -19,7 +19,7 @@ public abstract class HangHoa  {
     public HangHoa() {}
     @Override
     public String toString() {
-        return " [ Ma Hang: " + maHang + ", Ton Kho: " + soLuongTonKho + ", Ten Hang: " + tenHang + ", Don Gia: " + donGia+ " VND.";
+        return " [ Ma Hang: " + maHang + ", Ton Kho: " + soLuongTonKho + ", Ten Hang: " + tenHang + ", Don Gia: " + donGia+ " VND";
     }
 
     public String getMaHang() {

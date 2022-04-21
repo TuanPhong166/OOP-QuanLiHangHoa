@@ -64,7 +64,7 @@ public class DienMay extends HangHoa {
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return "Dien May  - " + super.toString() + ", Bao Hanh: " +timeBaoHanh +" thang, Cong suat: " + wattage + " kWh, Thue: " + tinhTien()  + " ]";
+        return "Dien May -" + super.toString() + ", Bao Hanh: " +timeBaoHanh +" thang, Cong suat: " + wattage + " kWh, Thue: " + tinhTien()  + " ]";
     }
 
     @Override

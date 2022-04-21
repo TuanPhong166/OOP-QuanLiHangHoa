@@ -36,7 +36,7 @@ public class Food extends HangHoa {
     public String toString() {
         // TODO Auto-generated method stub
         SimpleDateFormat ngayVietNam = new SimpleDateFormat("dd/MM/yyyy");
-        return "Thuc Pham - "+ super.toString() + ", Ngay san xuat: " + ngayVietNam.format(starDate) + ", Ngay het han: "
+        return "Thuc Pham-"+ super.toString() + ", Ngay san xuat: " + ngayVietNam.format(starDate) + ", Ngay het han: "
         +ngayVietNam.format(endDate)  + ", Thue: " + tinhTien() + " ]" ;
     }
     public boolean tinhHSD(){

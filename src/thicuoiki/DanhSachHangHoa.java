@@ -53,7 +53,7 @@ public  class DanhSachHangHoa  {
     public void inThongTin() {
         for (HangHoa hangHoa : danhSach) {
             System.out.println(hangHoa);
-            System.out.print("          -  [ Danh gia muc do : ");
+            System.out.print("         - [ Danh gia muc do : ");
             hangHoa.kiemTraHSD();
             System.out.println();
         }
@@ -62,7 +62,7 @@ public  class DanhSachHangHoa  {
     
     
     public void delete(){
-        System.out.println("Ban muon xoa theo cac nao:");
+        System.out.println("Ban muon xoa theo cach nao:");
         System.out.println("1.Xoa theo ma hang.       2.Xoa theo ten hang. ");
         System.out.print("- Nhap phuong thuc lua chon: ");
         int choose = input.nextInt();

@@ -37,7 +37,7 @@ public class SanhSu extends HangHoa {
     @Override
     public String toString() {
         SimpleDateFormat ngayVietNam = new SimpleDateFormat("dd/MM/yyyy");
-        return "Sanh Su   - " + super.toString()+ ", Ngay nhap kho: " + ngayVietNam.format(inputDate) + ", Nha san xuat: " + producer + ", Thue: " + tinhTien()+ " ]";
+        return "Sanh Su  -" + super.toString()+ ", Ngay nhap kho: " + ngayVietNam.format(inputDate) + ", Nha san xuat: " + producer + ", Thue: " + tinhTien()+ " ]";
     }
     @Override
     public void kiemTraHSD() {

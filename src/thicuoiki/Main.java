@@ -27,7 +27,7 @@ public class Main {
             switch(chose){
                 
                 case 1: 
-                
+                System.out.println("1.>> Nhap thong tin.");
                 try {
                     list.input();
                     
@@ -50,7 +50,7 @@ public class Main {
                     System.out.println("-----Menu sap xep -----");
                     System.out.println("1.>> Sap xep theo ma hang hoa");
                     System.out.println("2.>> Sap xep theo loai hang hoa");
-                    System.out.println("0.>> Quay ve menu");
+                    System.out.println("3.>> Quay ve menu");
                     System.out.print("--Ban chon chuc nang nao?: ");
                     chose = list.input.nextInt() ;
                     switch (chose) {
@@ -60,16 +60,15 @@ public class Main {
                             break;
                         case 2:
                             System.out.println("-->> Danh Sach Sau Khi Sap Xep <<--");
-                            System.out.println();
                             list.sortHang();
                             break ;
-                        case 0: 
+                        case 3: 
                             break ;
                         default:
                             System.out.println("Ban nhap sai roi - Vui long nhap lai!!!!");
                             break;
                     }
-                    }while(chose !=0);
+                    }while(chose !=3);
                     break;
 
                 case 4: 
